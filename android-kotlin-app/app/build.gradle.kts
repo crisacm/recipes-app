@@ -60,4 +60,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:${Versions.composeVersion}")
     debugImplementation("androidx.compose.ui:ui-tooling:${Versions.composeVersion}")
     debugImplementation("androidx.compose.ui:ui-test-manifest:${Versions.composeVersion}")
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+    implementation("androidx.navigation:navigation-compose:2.5.3")
 }
